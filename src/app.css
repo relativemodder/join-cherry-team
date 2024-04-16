@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'gg sans';
+}
+
+body {
+    @apply bg-zinc-900 text-white;
+}
+
+@media screen and (max-width: 600px) {
+    .scale-down {
+        transform: scale(0.75);
+    }
+}
