@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="w-1/4 min-h-32 bg-zinc-800 rounded-lg overflow-y-hidden scale-down" style="min-width: 430px;">
-    <img src="/head.png" alt="head" />
+    <img src="/head.png" class="w-full" alt="head" />
     <div class="p-4">
         <small class="opacity-75 text-sm font-semibold">YOU'VE BEEN INVITED TO JOIN A SERVER</small>
         <div class="flex gap-5 w-full mt-3 justify-between items-center">
